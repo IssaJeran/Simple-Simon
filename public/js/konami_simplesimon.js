@@ -31,7 +31,7 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  var audio = new Audio('nodude.wav');
+  var audio = new Audio("sounds/nodude.wav");
   alert("Check out our new song UDIGGGG");
   audio.play();
 }
