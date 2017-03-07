@@ -7,8 +7,8 @@ $(document).ready(function() {
 	var	random;
 	var position = 0;
 	var counter = 0;
-	var wrongAnswer1 = new Audio("audiocombine1.mp3");
-	var kanye = new Audio("kanyejoin.mp3")
+	var wrongAnswer1 = new Audio("sounds/audiocombine1.mp3");
+	var kanye = new Audio("sounds/kanyejoin.mp3")
 		kanye.play();
 
 	//Begins the game
