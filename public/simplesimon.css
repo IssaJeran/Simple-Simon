@@ -9,12 +9,12 @@
     margin-bottom: 100px;
 }
 
-.boss{
+.boss {
     font-family: 'Orbitron', sans-serif;
     color: hotpink;
-    padding-left: 15px;
-    margin-left: 40px;
-    font-size: 25px;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-weight: bold;
 }
 
@@ -22,7 +22,7 @@
     background-color: grey;
 }
 
-.menu{
+.menu {
     height: 450px;
     width: 250px;
     background: tan;
@@ -31,7 +31,8 @@
     border-color: black; 
     border-radius: 5px; 
 }
-.round{
+
+.round {
     width: 200px;
     height: 100px;
     margin-left: 32px;
@@ -47,7 +48,7 @@
     text-align: center;
 }
 
-#roundnumber{
+#roundnumber {
     font-size: 25px;
     color: white;
 }
@@ -68,7 +69,6 @@
     font-size: .9em;
 }
 
-
 #begin {
     height: 100px;
     width: 200px;
@@ -85,8 +85,6 @@
     font-size: 1em;
 }
 
-
-/*Hover classes*/
 .pink:hover {
     background: #e30074;
 }
@@ -108,7 +106,6 @@
     background: #e50d00;
 }
 
-/*Color Divs*/
 .pink {
     width: 200px;
     height: 200px;
@@ -118,6 +115,7 @@
     margin-top: 20px;
     border-radius: 5px; 
 }
+
 .green {
     width: 200px;
     height: 200px;
@@ -126,6 +124,7 @@
     margin-top: 20px;
     border-radius: 5px;  
 }
+
 .orange {
     width: 200px;
     height: 200px;
@@ -134,6 +133,7 @@
     margin-left: 18px; 
     border-radius: 5px; 
 }
+
 .blue {
     width: 200px;
     height: 200px;
@@ -142,8 +142,7 @@
     border-radius: 5px; 
 }
 
-
-.heading{
+.heading {
     margin-top: 25px;
     margin-bottom: 40px;
     text-align: center;
