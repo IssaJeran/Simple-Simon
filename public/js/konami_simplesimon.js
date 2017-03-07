@@ -23,11 +23,11 @@ document.addEventListener('keydown', function(e) {
   var requiredKey = konamiCode[konamiCodePosition];
 
   if (key == requiredKey) {
-    konamiCodePosition++;
+      konamiCodePosition++;
   if (konamiCodePosition == konamiCode.length)
       activateCheats();
   } else
-    konamiCodePosition = 0;
+      konamiCodePosition = 0;
 });
 
 function activateCheats() {
