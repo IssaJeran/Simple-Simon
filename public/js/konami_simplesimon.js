@@ -32,7 +32,7 @@ document.addEventListener('keydown', function(e) {
 
 function activateCheats() {
   var audio = new Audio("sounds/nodude.wav");
-  alert("Check out our new song UDIGGGG");
+  alert("Ayyy you did it!! Now check out our new song with this shameless plug UDIGGGG");
   audio.play();
 }
 
