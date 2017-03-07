@@ -67,6 +67,7 @@
     border-color: #666666; 
     border-width: 2px;
     font-size: .9em;
+    font-weight: bold;
 }
 
 #begin {
@@ -83,6 +84,7 @@
     border-color: #666666; 
     border-width: 2px;
     font-size: 1em;
+    font-weight: bold;
 }
 
 .pink:hover {
