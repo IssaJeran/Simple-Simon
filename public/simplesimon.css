@@ -1,0 +1,153 @@
+.area {
+    height: 450px;
+    width: 450px;
+    background: tan;
+    border-style: outset;
+    border-width: 6px;
+    border-color: black; 
+    border-radius: 5px; 
+    margin-bottom: 100px;
+}
+
+.boss{
+    font-family: 'Orbitron', sans-serif;
+    color: hotpink;
+    padding-left: 15px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.background {
+    background-color: grey;
+}
+
+.menu{
+    height: 450px;
+    width: 250px;
+    background: tan;
+    border-style: outset;
+    border-width: 6px;
+    border-color: black; 
+    border-radius: 5px; 
+}
+.round{
+    width: 200px;
+    height: 100px;
+    margin-left: 32px;
+    background: darkred;
+    border: inset;
+    border-width: 3px;
+    border-color: #666666;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-top: 5px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+#roundnumber{
+    font-size: 25px;
+    color: white;
+}
+
+#konamibutton {
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    background: darkred;
+    color: white;
+    padding: 30px; 
+    text-align: center;
+    margin-left: 33px;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-color: #666666; 
+    border-width: 2px;
+    font-size: .9em;
+}
+
+
+#begin {
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    background: darkred;
+    color: white;
+    padding: 30px; 
+    text-align: center;
+    margin-left: 33px;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+    border-color: #666666; 
+    border-width: 2px;
+    font-size: 1em;
+}
+
+
+/*Hover classes*/
+.pink:hover {
+    background: #e30074;
+}
+
+.green:hover {
+    background: #b8d000;
+}
+
+.orange:hover {
+    background: #ff9900;
+}
+.blue:hover {
+    background: #2175d9;
+}
+#go:hover{
+    background: #00e506;
+}
+#stop:hover{
+    background: #e50d00;
+}
+
+/*Color Divs*/
+.pink {
+    width: 200px;
+    height: 200px;
+    background: #9e0051;
+    float: left;
+    margin-left: 18px;
+    margin-top: 20px;
+    border-radius: 5px; 
+}
+.green {
+    width: 200px;
+    height: 200px;
+    background: #809100;
+    float: left;
+    margin-top: 20px;
+    border-radius: 5px;  
+}
+.orange {
+    width: 200px;
+    height: 200px;
+    background: #b26b00;
+    float: left;
+    margin-left: 18px; 
+    border-radius: 5px; 
+}
+.blue {
+    width: 200px;
+    height: 200px;
+    background: #134682;
+    float: left;
+    border-radius: 5px; 
+}
+
+
+.heading{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
