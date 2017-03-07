@@ -24,7 +24,7 @@
 
 .menu {
     height: 450px;
-    width: 250px;
+    width: 400px;
     background: tan;
     border-style: outset;
     border-width: 6px;
@@ -33,9 +33,9 @@
 }
 
 .round {
-    width: 200px;
+    width: 300px;
     height: 100px;
-    margin-left: 32px;
+    margin-left: 60px;
     background: darkred;
     border: inset;
     border-width: 3px;
@@ -55,13 +55,13 @@
 
 #konamibutton {
     height: 100px;
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
     background: darkred;
     color: white;
     padding: 30px; 
     text-align: center;
-    margin-left: 33px;
+    margin-left: 60px;
     margin-top: 20px;
     font-family: 'Orbitron', sans-serif;
     border-color: #666666; 
@@ -71,13 +71,13 @@
 
 #begin {
     height: 100px;
-    width: 200px;
+    width: 300px;
     border-radius: 50%;
     background: darkred;
     color: white;
     padding: 30px; 
     text-align: center;
-    margin-left: 33px;
+    margin-left: 60px;
     margin-top: 20px;
     font-family: 'Orbitron', sans-serif;
     border-color: #666666; 
