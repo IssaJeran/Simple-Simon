@@ -1,10 +1,8 @@
 //This JS plays one of my new songs whenever the user enters the Konami Code
 "use strict";
 
-var audio = new Audio('///Users/jeransmith/vagrant-lamp/sites/simplesimon.dev/public/nodudelatestreetnights.wav');
+var audio = new Audio('///Users/jeransmith/vagrant-lamp/sites/simplesimon.dev/nodude.wav');
   
-audio.play();
-
 var allowedKeys = {
   37: 'left',
   38: 'up',
@@ -33,14 +31,10 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  document.body.style.backgroundImage = ('///Users/jeransmith/vagrant-lamp/sites/codeup.dev/public/rome-fortune.jpg');
-
   var audio = new Audio('///Users/jeransmith/vagrant-lamp/sites/simplesimon.dev/nodude.wav');
+  alert("Check out our new song UDIGGGG");
   audio.play();
-  audio.play();
-  alert("You Have Unlocked Our New Song UDIGGGG");
 }
-
 
 
 
