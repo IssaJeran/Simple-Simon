@@ -61,7 +61,7 @@ $(document).ready(function() {
 		if (target == lights[position]) {
 			position++;  
 		}   else {
-			alert("Game Over But Continue Enjoying The Song You Unlocked! And Try Again!");
+			alert("Wow not only did you lose but you also rudely interrupted an incredible song. You should feel ashamed. Try again bro");
 			wrongAnswer1.play();
 			reset(); 
 		}
