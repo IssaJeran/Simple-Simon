@@ -61,8 +61,8 @@ $(document).ready(function() {
 		if (target == lights[position]) {
 			position++;  
 		}   else {
-			wrongAnswer1.play();
 			alert("Game Over But Continue Enjoying The Song You Unlocked! And Try Again!");
+			wrongAnswer1.play();
 			reset(); 
 		}
 		if (position == lights.length) { 
