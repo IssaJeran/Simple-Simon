@@ -1,7 +1,7 @@
 //This JS plays one of my new songs whenever the user enters the Konami Code
 "use strict";
 
-var audio = new Audio('///Users/jeransmith/vagrant-lamp/sites/simplesimon.dev/nodude.wav');
+var audio;
   
 var allowedKeys = {
   37: 'left',
@@ -31,7 +31,7 @@ document.addEventListener('keydown', function(e) {
 });
 
 function activateCheats() {
-  var audio = new Audio('///Users/jeransmith/vagrant-lamp/sites/simplesimon.dev/nodude.wav');
+  var audio = new Audio('nodude.wav');
   alert("Check out our new song UDIGGGG");
   audio.play();
 }
